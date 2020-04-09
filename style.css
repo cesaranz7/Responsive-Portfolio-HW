@@ -1,4 +1,26 @@
 /* Index Page */
+
 h2 {
-    color: red;
+    
+}
+
+.Dogimage {
+    height: 400px;
+    width: 450px;
+}
+
+#AboutMeFont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+
+
+/* Portfolio Page  */
+
+#SadieByTheLake {
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 100px;
 }

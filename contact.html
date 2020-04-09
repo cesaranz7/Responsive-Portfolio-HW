@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+    <!-- Navigation Bar -->
     <nav class="navbar  navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">Cesar</span>
 
@@ -25,14 +25,38 @@
         </section>
     </nav>
 
-<section class="container">
-    <section class="row">
-        <section class="col-md-12">
-            <h2>Contact</h2>
+    <!-- Main Body  -->
+    <section class="container">
+        <section class="row">
+            <section class="col-md-12">
+                <!-- Gets wrapped in a card -->
+                <section class="card">
+                    <section class="card-body">
+                        <h2>Contact</h2>
+                    </section>
+                </section>
+            </section>
         </section>
+        <!-- Form  -->
+        <section>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Sadie">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Email</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Sadie@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
+        </section>
     </section>
-</section>
 
 </body>
 
