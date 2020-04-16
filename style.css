@@ -19,8 +19,29 @@ h2 {
 /* Portfolio Page  */
 
 #SadieByTheLake {
-    height: 350px;
+    height: 295px;
     width: 350px;
     margin-top: 30px;
     margin-left: 100px;
+}
+
+#SadieAndPenny {
+    height: 600px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+
+#SadieAndKK {
+    height: 295px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+/* Footer  */
+.footer {
+    background-color: #dfd1d104;
 }
